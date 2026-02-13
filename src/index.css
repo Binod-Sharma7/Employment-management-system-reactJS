@@ -1,0 +1,9 @@
+@import "tailwindcss";
+#tasklist::-webkit-scrollbar{
+display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  cursor: pointer;
+    filter: invert();
+}

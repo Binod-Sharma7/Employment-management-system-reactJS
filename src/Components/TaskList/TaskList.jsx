@@ -12,7 +12,7 @@ export default function TaskList({ tasklist }) {
 
 
   return (<>
-    <div id="tasklist" className='h-[55%] w-full flex items-center gap-5  justify-start overflow-x-auto flex-nowrap  mt-5 px-2 text-white rounded-2xl'>
+    <div id="tasklist" className='h-[55%] w-full flex items-center gap-6  justify-start overflow-x-auto flex-nowrap  mt-5 px-2 text-white rounded-2xl'>
 
       {tasklist.map(task => (
         <div key={task.id} className={`h-[90%] flex-shrink-0 w-[300px] rounded-xl ${getTaskColor(task)}`}>
